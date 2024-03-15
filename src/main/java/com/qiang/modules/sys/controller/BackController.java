@@ -287,5 +287,8 @@ public class BackController {
         return "user";
     }
 
-
+    @GetMapping("/light")
+    public String light() {
+        return "light";
+    }
 }
